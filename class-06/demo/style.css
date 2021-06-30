@@ -15,8 +15,8 @@ header, footer{
 li {
     border: solid black 2px;
     display: inline;
-    padding: 1px 10px;
-    margin: 40px;
+    padding: .1em 1em;
+    margin: 1.5%;
     background-color: cyan;
     color: hotpink;
 }
@@ -32,6 +32,10 @@ section p {
     margin: 0px 10px;
 }
 
-#section1 {
+#section1, #section2 {
     width: 95%;
+}
+
+#username {
+    color: rgb(48, 49, 94);
 }
